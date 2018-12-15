@@ -14,7 +14,7 @@ In this project, we built a machine translation system using deep learning techn
 | Ch-En  | RNN | RNN no Attn | 6.86 |
 | Vi-En  | RNN | RNN no Attn | 7.58 |
 | Ch-En  | RNN | RNN Attn | 13.02 |
-| Ch-En  | RNN | RNN Attn | 12.46 (evaluation with beam search)|
+| Ch-En  | RNN | RNN Attn | 12.46 (with beam search(k=3))|
 | Vi-En  | RNN | RNN Attn | 15.87 |
 | Ch-En  | CNN | RNN Attn | 7.91 |
 | Vi-En  | CNN  | RNN Attn | 8.51 |
@@ -22,12 +22,10 @@ In this project, we built a machine translation system using deep learning techn
 ### Current Results (On Test Set)
 | Language  | Encoder | Decoder | BLEU |
 | ------------- | ------------- |------------- | ------------- |
-| Ch-En  | RNN | RNN Attn | // |
-| Vi-En  | RNN | RNN Attn | // |
+| Ch-En  | RNN | RNN Attn | 12.21 |
+| Vi-En  | RNN | RNN Attn | 15.47 |
 
 ### To-do-list
-
-Due to the time limit, we haven't finished all of our initial plan, but we are still working on this project after the project submission deadline to improve the current results. The potential future work includes: 
 
 - [ ] Change GRU to LSTM
 - [ ] Try deeper netowrks for CNN and RNN
